@@ -1,0 +1,15 @@
+swagger: '2.0'
+info:
+  title: Open API Security Testing
+  description: Open API Security Testing
+  version: 1.0.0
+basePath: /v1
+schemes:
+  - http
+paths: {}
+securityDefinitions:
+  Bearer:
+    description: JWT Token
+    type: apiKey
+    name: Authorization
+    in: header
