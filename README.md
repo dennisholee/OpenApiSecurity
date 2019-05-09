@@ -3,8 +3,10 @@
 ## Enabling JWT token in Swagger 2.0
 
 **Protect API endpoint with using the security definition**
+
 http://localhost:3002/v1/api-docs
-```JSON
+
+```javascript
 {
     "swagger": "2.0",
     "info": {
