@@ -58,3 +58,6 @@ http://localhost:3002?username={username}&password={password}
 ```bash
 curl -X GET http://localhost:3002/v1/forest -H "Authorization: Bearer {JWT}"
 ```
+
+## Useful Links
+* https://auth0.com/docs/tokens/id-token
